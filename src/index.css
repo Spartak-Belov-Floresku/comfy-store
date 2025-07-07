@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .align-element{
+        @apply mx-auto max-w-6xl px-8;
+    }
+    .theme-winter{
+        @apply bg-gradient-to-b from-[#f0f4f8] to-[#e2e8f0];
+    }
+    .theme-dracula{
+        @apply bg-gradient-to-b from-[#282a36] to-[#44475a];
+    }
+}
